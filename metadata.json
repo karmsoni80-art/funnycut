@@ -1,0 +1,6 @@
+{
+  "name": "FUNNYCUT AI",
+  "description": "One Long Video. Multiple Viral Moments. Turn long videos into funny short reels with AI moment detection, auto-framing, kinetic captions, and professional multitrack editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

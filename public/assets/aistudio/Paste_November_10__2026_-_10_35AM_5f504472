@@ -1,0 +1,1272 @@
+ULTIMATE MASTER DEVELOPMENT PROMPT
+
+FUNNYCUT AI – COMPLETE PROFESSIONAL AI VIDEO EDITING PLATFORM
+
+Act as a Senior Software Architect, Full-Stack Developer, AI/ML Engineer, Computer Vision Engineer, Video Processing Engineer, Professional Video Editor Developer, UI/UX Designer, Database Engineer and DevOps Engineer.
+
+Your mission is to design, develop, implement, test and deliver a complete working website called:
+
+FUNNYCUT AI
+
+Tagline: One Long Video. Multiple Viral Moments.
+
+The website must follow the supplied 12-screen FUNNYCUT AI wireframe as its primary visual reference.
+
+Build a unique commercial-quality product inspired by the usability of OpusClip, CapCut, VEED and Descript. Do not copy their branding or exact designs.
+
+IMPORTANT BUSINESS REQUIREMENT:
+
+FUNNYCUT AI is completely free for users in its initial version.
+
+- No subscription page.
+- No pricing page.
+- No payment gateway.
+- No premium plans.
+- No credit purchase.
+- No billing interface.
+- No paid feature restrictions.
+- No artificial subscription prompts.
+
+All available product features must be accessible without payment.
+
+The platform must be designed to control its infrastructure costs through efficient processing, configurable resource limits and open-source technologies, not through fake free-service promises.
+
+==================================================
+
+1. MAIN PROJECT OBJECTIVE
+   ==================================================
+
+Create a website that converts one long video into multiple professionally edited short videos using AI.
+
+User workflow:
+
+1. User opens FUNNYCUT AI.
+2. User pastes a supported video link or uploads a video.
+3. System analyzes the entire video.
+4. AI identifies funny, interesting and entertaining moments.
+5. AI ranks the moments.
+6. User selects the moments.
+7. System creates multiple short videos.
+8. AI automatically edits every video.
+9. User can customize everything in a professional editor.
+10. User exports and downloads individual videos or all videos together.
+
+The website must be fully functional, responsive, secure and reliable.
+
+Do not create unrelated AI tools.
+
+Do not create fake functionality.
+
+==================================================
+2. EXACT DESIGN REFERENCE
+
+Use the supplied FUNNYCUT AI wireframe image as the design reference.
+
+Maintain these 12 screens:
+
+1. Landing Page
+2. User Dashboard
+3. Create Project / Import Video
+4. Video Analysis
+5. Detected Funny Moments
+6. Configure and Generate Clips
+7. Generated Clips Gallery
+8. Professional Video Editor
+9. Export Center
+10. Rendering Progress
+11. My Projects
+12. Account Settings
+
+Do not introduce subscription or billing screens.
+
+Design language:
+
+- Premium dark SaaS interface.
+- Modern video production workspace.
+- Purple and violet accent colors.
+- Rounded professional cards.
+- Clean typography.
+- Attractive gradients.
+- Smooth transitions.
+- Subtle animations.
+- Minimal visual clutter.
+
+COLOR SYSTEM:
+
+Main background: #0B0D12
+Secondary background: #141824
+Card background: #191F2D
+Primary purple: #8B5CF6
+Secondary purple: #A855F7
+Accent cyan: #06B6D4
+Primary text: #FFFFFF
+Secondary text: #A1A1AA
+Success: #22C55E
+Warning: #F59E0B
+Border: #2A3040
+
+Fonts:
+
+- Inter.
+- Plus Jakarta Sans.
+
+Use consistent spacing, button styles, typography, cards, icons and navigation across all pages.
+
+==================================================
+3. LANDING PAGE
+
+Create a premium landing page.
+
+Navigation:
+
+- Logo.
+- Features.
+- How It Works.
+- Examples.
+- FAQ.
+- Login.
+- Sign Up.
+
+Hero headline:
+
+"Turn Long Videos Into Multiple Funny Reels With AI"
+
+Description:
+
+"Upload your video or paste a supported link. AI finds the funniest moments, edits them professionally and creates multiple ready-to-publish short videos."
+
+Hero input:
+
+- Video URL input.
+- Paste button.
+- Upload button.
+- Generate My Reels button.
+
+Show:
+
+- Animated example clips.
+- Before/after editing preview.
+- How it works.
+- AI capabilities.
+- Professional editor features.
+- Supported formats.
+- FAQ.
+- Footer.
+
+Do not add pricing or subscription sections.
+
+==================================================
+4. USER AUTHENTICATION
+
+Implement:
+
+- Email registration.
+- Email login.
+- Password validation.
+- Forgot password.
+- Password reset.
+- Email verification.
+- Logout.
+- Secure sessions.
+
+Use Supabase Auth or an equivalent secure authentication system.
+
+Every user must have a separate private workspace.
+
+==================================================
+5. DASHBOARD
+
+Create a professional dashboard.
+
+Display real user data:
+
+- Total projects.
+- Total source videos.
+- Total generated clips.
+- Total exports.
+- Recent activity.
+- Processing jobs.
+- Recently edited videos.
+
+Main actions:
+
+- Create New Project.
+- Upload Video.
+- Paste Video Link.
+- Open My Projects.
+
+Add:
+
+- Recent project thumbnails.
+- Processing status.
+- Search.
+- Sort.
+- Filter.
+- Empty state for new accounts.
+
+Never hardcode fake statistics.
+
+==================================================
+6. VIDEO IMPORT ENGINE
+
+Support:
+
+A. Video uploads:
+
+- MP4.
+- MOV.
+- WebM.
+- MKV where supported.
+
+B. Authorized video URLs:
+
+- Supported direct video URLs.
+- YouTube through permitted and authorized integrations.
+- Official source integrations where available.
+
+Do not bypass DRM, login restrictions, private access controls or source-platform restrictions.
+
+Implement:
+
+- URL validation.
+- Metadata extraction.
+- Thumbnail preview.
+- Duration detection.
+- Resolution detection.
+- File-size validation.
+- File-type validation.
+- Upload progress.
+- Resumable uploads.
+- Upload cancellation.
+- Retry.
+- Error messages.
+
+Show the imported video before analysis.
+
+For large files, use multipart or resumable uploads directly to object storage.
+
+==================================================
+7. AI VIDEO ANALYSIS ENGINE
+
+This is the most important component.
+
+Build an actual AI analysis pipeline.
+
+AUDIO ANALYSIS:
+
+Use FFmpeg to extract audio.
+
+Use Whisper or faster-whisper for transcription.
+
+Detect:
+
+- Dialogue.
+- Punchlines.
+- Laughter.
+- Applause.
+- Sarcasm.
+- Surprising statements.
+- Funny conversations.
+- Speech timing.
+- Pauses.
+- Unusual sound events.
+
+Preserve accurate timestamps.
+
+VISUAL ANALYSIS:
+
+Use OpenCV and suitable computer vision models.
+
+Analyze:
+
+- Faces.
+- Facial expressions.
+- Scene changes.
+- Reactions.
+- Gestures.
+- Active speakers.
+- Camera changes.
+- Important objects.
+- Visual surprises.
+
+Do not claim precise emotion recognition when the model cannot reliably establish it.
+
+CONTEXTUAL AI ANALYSIS:
+
+Use a multimodal AI model to understand:
+
+- Conversation context.
+- Setup and punchline.
+- Funny situations.
+- Reaction sequences.
+- Unexpected events.
+- Important dialogue.
+- Complete comedic sequences.
+
+AI must not select clips based only on random laughter or loud sounds.
+
+It must understand the surrounding conversation.
+
+==================================================
+8. ADVANCED FUNNY MOMENT DETECTION
+
+Detect:
+
+1. Funny dialogue.
+2. Unexpected reactions.
+3. Funny expressions.
+4. Memorable punchlines.
+5. Sarcastic conversations.
+6. Unexpected situations.
+7. Funny mistakes.
+8. People laughing.
+9. Relatable moments.
+10. Comedy interactions.
+11. Reaction moments.
+12. Surprising moments.
+
+Each detected moment must contain:
+
+- Unique ID.
+- Clip title.
+- Start timestamp.
+- End timestamp.
+- Duration.
+- Transcription.
+- Category.
+- AI score.
+- Reason for selection.
+- Thumbnail.
+- Processing status.
+
+AI scoring:
+
+Use a weighted scoring model based on:
+
+- Comedy potential.
+- Context quality.
+- Punchline completeness.
+- Reaction quality.
+- Audio engagement.
+- Visual engagement.
+- Standalone clip quality.
+- Beginning and ending completeness.
+
+Score: 0–100.
+
+Scores must be treated as estimated rankings, not guaranteed virality.
+
+Add duplicate detection and overlap management.
+
+==================================================
+9. ADVANCED CLIP SELECTION
+
+Provide:
+
+Number of clips:
+
+- 3. 
+- 5. 
+- 10. 
+- 15. 
+- Custom.
+
+Duration:
+
+- 10–20 seconds.
+- 20–30 seconds.
+- 30–45 seconds.
+- 45–60 seconds.
+- Custom.
+
+Clip categories:
+
+- Funny.
+- Reaction.
+- Dialogue.
+- Meme.
+- Fast comedy.
+- Podcast.
+- Unexpected ending.
+
+Language:
+
+- Automatic.
+- Hindi.
+- English.
+- Gujarati.
+- Hinglish.
+
+Aspect ratios:
+
+- 9:16.
+- 1:1.
+- 4:5.
+- 16:9.
+
+Additional controls:
+
+- Minimum AI score.
+- Include only selected categories.
+- Avoid repeated speakers.
+- Avoid overlapping clips.
+- Prioritize complete jokes.
+- Prioritize short clips.
+- Preserve dialogue context.
+
+Allow users to manually select, deselect and adjust timestamps.
+
+==================================================
+10. ADVANCED AUTOMATIC PROFESSIONAL EDITING ENGINE
+
+Do not simply cut and export clips.
+
+Build an intelligent editing engine.
+
+Every clip should be automatically improved using editing decisions based on its content.
+
+A. SMART TRIMMING
+
+- Remove unnecessary silence.
+- Remove irrelevant pauses.
+- Preserve punchline timing.
+- Preserve setup.
+- Avoid cutting important words.
+- Avoid abrupt endings.
+- Keep natural dialogue flow.
+- Add configurable opening and ending padding.
+
+B. SMART CAMERA FRAMING
+
+- Detect active speakers.
+- Track faces.
+- Track important subjects.
+- Convert landscape footage into vertical video.
+- Keep the subject inside safe areas.
+- Dynamically reposition crops.
+- Use speaker switching when multiple people are visible.
+- Use blurred background fill where needed.
+- Support manual crop positioning.
+
+C. CINEMATIC AUTOMATIC EDITING
+
+Add intelligent:
+
+- Punchline zoom.
+- Reaction zoom.
+- Dynamic zoom.
+- Camera movement simulation.
+- Freeze frame.
+- Slow motion.
+- Speed ramp.
+- Smooth transitions.
+- Scene emphasis.
+- Reaction highlights.
+
+Apply effects only when contextually appropriate.
+
+D. AUTOMATIC COLOR CORRECTION
+
+Implement:
+
+- Brightness.
+- Contrast.
+- Exposure.
+- Saturation.
+- Temperature.
+- Tint.
+- Highlights.
+- Shadows.
+- Sharpness.
+- White balance.
+
+Provide automatic correction and manual controls.
+
+E. AUDIO MASTERING
+
+Implement:
+
+- Noise reduction.
+- Voice enhancement.
+- Loudness normalization.
+- Volume balancing.
+- Audio ducking.
+- Fade in.
+- Fade out.
+- Silence reduction.
+- Background music mixing.
+- Sound effect mixing.
+- Audio synchronization.
+
+Never destroy the original audio.
+
+Provide an original-audio restore option.
+
+F. AUTOMATIC CAPTIONS
+
+Generate synchronized captions using speech transcription.
+
+Features:
+
+- Word-level timestamps.
+- Automatic punctuation.
+- Hindi captions.
+- English captions.
+- Gujarati captions.
+- Hinglish captions.
+- Speaker identification where supported.
+- Keyword highlighting.
+- Animated subtitles.
+
+Provide multiple caption presets:
+
+1. Modern white.
+2. Bold yellow.
+3. Karaoke.
+4. Podcast style.
+5. Minimal.
+6. Meme style.
+7. Highlighted word.
+8. Gradient captions.
+
+Allow full customization.
+
+G. COMEDY EFFECTS
+
+Create a contextual effects library:
+
+- Dramatic zoom.
+- Record scratch.
+- Laugh sound.
+- Suspense sound.
+- Funny reaction stickers.
+- Meme overlays.
+- Animated arrows.
+- Freeze-frame text.
+- Pop-up captions.
+- Reaction emphasis.
+- Optional comic sound effects.
+
+Effects must be optional, editable and removable.
+
+Use only properly licensed or original audio and visual assets.
+
+==================================================
+11. PROFESSIONAL VIDEO EDITOR
+
+Build a real professional browser-based editing workspace.
+
+This is a critical feature.
+
+EDITOR LAYOUT:
+
+LEFT SIDEBAR:
+
+1. Media.
+2. Text.
+3. Captions.
+4. Audio.
+5. Effects.
+6. Transitions.
+7. Stickers.
+8. Templates.
+9. Filters.
+
+CENTER:
+
+- Large video preview.
+- Playback.
+- Play/pause.
+- Frame-by-frame navigation.
+- Preview resolution.
+- Aspect ratio.
+- Full-screen mode.
+- Safe-area guides.
+
+RIGHT INSPECTOR:
+
+- Transform.
+- Position X/Y.
+- Scale.
+- Rotation.
+- Opacity.
+- Crop.
+- Color.
+- Audio.
+- Text.
+- Animation.
+- Effects properties.
+
+BOTTOM TIMELINE:
+
+- Video tracks.
+- Audio tracks.
+- Subtitle tracks.
+- Text tracks.
+- Overlay tracks.
+- Transition tracks.
+
+TIMELINE FUNCTIONALITY:
+
+- Drag and drop.
+- Split.
+- Trim.
+- Move.
+- Resize.
+- Delete.
+- Duplicate.
+- Merge.
+- Track locking.
+- Track visibility.
+- Mute.
+- Snap.
+- Zoom.
+- Undo.
+- Redo.
+- Autosave.
+
+ADVANCED TIMELINE:
+
+- Multiple clips.
+- Keyframes.
+- Keyframe interpolation.
+- Position animation.
+- Scale animation.
+- Opacity animation.
+- Volume keyframes.
+- Transition duration.
+- Audio waveform.
+- Video thumbnails.
+- Playhead scrubbing.
+- Frame-accurate seeking.
+
+Implement real editing behavior.
+
+Use a project-based editing model and deterministic render instructions.
+
+==================================================
+12. ADDITIONAL PROFESSIONAL EDITING FEATURES
+
+Add the following features.
+
+1. AI editing presets:
+
+- Viral Comedy.
+- Podcast Highlight.
+- Fast Meme.
+- Clean Professional.
+- Reaction Video.
+- Minimal Subtitles.
+- Cinematic Short.
+
+2. Before/after comparison.
+
+3. Original video restore.
+
+4. Auto scene detection.
+
+5. Smart silence detection.
+
+6. Automatic music ducking.
+
+7. Automatic speech emphasis.
+
+8. Subject tracking.
+
+9. Face-centered reframing.
+
+10. Speaker-aware layout.
+
+11. Picture-in-picture.
+
+12. Split-screen layouts.
+
+13. Background replacement or blur where technically supported.
+
+14. Custom intro and outro.
+
+15. Brand logo overlay.
+
+16. Custom font uploads where licensed.
+
+17. Custom subtitle presets.
+
+18. Save custom editing presets.
+
+19. Batch apply editing styles to multiple clips.
+
+20. Copy and paste editing properties.
+
+21. Keyboard shortcuts.
+
+22. Version history.
+
+23. Restore previous edits.
+
+24. Auto-save.
+
+25. Project duplication.
+
+26. Clip regeneration without repeating full source analysis.
+
+27. Side-by-side clip comparison.
+
+28. Automatic safe-area checking.
+
+29. Audio clipping detection.
+
+30. Export quality warnings.
+
+==================================================
+13. GENERATED CLIPS GALLERY
+
+Display all generated clips in a professional grid.
+
+Each card must show:
+
+- Thumbnail.
+- Clip name.
+- Duration.
+- Funny score.
+- Aspect ratio.
+- Resolution.
+- Caption status.
+- Processing status.
+
+Actions:
+
+- Preview.
+- Edit.
+- Regenerate.
+- Duplicate.
+- Download.
+- Delete.
+
+Batch actions:
+
+- Select all.
+- Select multiple.
+- Apply preset.
+- Export selected.
+- Download all.
+- Delete selected.
+
+Support a ZIP package for batch downloads.
+
+==================================================
+14. EXPORT CENTER
+
+Implement actual rendering using FFmpeg.
+
+Formats:
+
+- MP4 H.264.
+- MP4 H.265 where supported.
+- WebM.
+
+Resolution:
+
+- 720p.
+- 1080p.
+- 1440p where source and processing support it.
+
+Frame rate:
+
+- 24 FPS.
+- 25 FPS.
+- 30 FPS.
+- 60 FPS.
+
+Aspect ratio:
+
+- 9:16.
+- 1:1.
+- 4:5.
+- 16:9.
+
+Quality:
+
+- Standard.
+- High.
+- Maximum.
+
+Export options:
+
+- Burned-in subtitles.
+- Separate subtitle file.
+- Background music.
+- Sound effects.
+- Watermark optional.
+- Original audio.
+- Edited audio.
+- Individual exports.
+- Batch exports.
+- ZIP download.
+
+Add real rendering status.
+
+Never show a download button for a file that does not exist.
+
+==================================================
+15. PROCESSING PIPELINE
+
+Create background workers for long video processing.
+
+Pipeline:
+
+1. Import.
+2. Validate.
+3. Extract metadata.
+4. Extract audio.
+5. Generate transcription.
+6. Analyze scenes.
+7. Analyze context.
+8. Detect funny moments.
+9. Rank moments.
+10. Generate clips.
+11. Reframe footage.
+12. Generate captions.
+13. Apply editing presets.
+14. Render previews.
+15. Final rendering.
+16. Store export.
+17. Make downloads available.
+
+Use real job state.
+
+Implement:
+
+- Queues.
+- Retries.
+- Cancellation.
+- Failure recovery.
+- Timeouts.
+- Progress updates.
+- Concurrent job limits.
+- Worker health monitoring.
+- Temporary file cleanup.
+
+Progress must come from actual processing state.
+
+==================================================
+16. TECHNICAL ARCHITECTURE
+
+FRONTEND:
+
+- Next.js.
+- React.
+- TypeScript.
+- Tailwind CSS.
+- shadcn/ui.
+- Framer Motion.
+- Zustand for editor state.
+- TanStack Query for API state.
+
+VIDEO EDITOR:
+
+- Custom React timeline.
+- HTML5 video preview.
+- Remotion Player where useful.
+- Canvas-based overlays where appropriate.
+- Web Audio API for preview mixing.
+
+BACKEND:
+
+- Python.
+- FastAPI.
+- Pydantic.
+- REST API.
+- PostgreSQL.
+
+VIDEO PROCESSING:
+
+- FFmpeg.
+- FFprobe.
+- OpenCV.
+- faster-whisper.
+- Suitable face and object tracking models.
+- Multimodal AI integration.
+
+BACKGROUND PROCESSING:
+
+- Redis.
+- Celery.
+- Dedicated workers.
+
+STORAGE:
+
+- Supabase Storage or S3-compatible object storage.
+
+DEPLOYMENT:
+
+- Vercel frontend.
+- Separate FastAPI backend.
+- Dedicated worker service.
+- Managed PostgreSQL.
+- Redis.
+
+Do not run long video-processing tasks in normal serverless requests.
+
+Use proxy videos for editor previews and high-quality rendering for final output.
+
+==================================================
+17. DATABASE
+
+Use PostgreSQL.
+
+Create tables:
+
+1. users
+2. projects
+3. source_videos
+4. video_metadata
+5. video_analysis
+6. transcripts
+7. detected_moments
+8. generated_clips
+9. clip_editing_projects
+10. timeline_tracks
+11. timeline_elements
+12. keyframes
+13. subtitles
+14. media_assets
+15. processing_jobs
+16. export_jobs
+17. project_versions
+18. editing_presets
+19. user_preferences
+20. activity_logs
+
+Use:
+
+- UUID primary keys.
+- Foreign keys.
+- Indexes.
+- Timestamps.
+- Appropriate status enums.
+- User ownership.
+- Row-level security.
+
+Every user must only access their own private projects and media.
+
+==================================================
+18. API ENDPOINTS
+
+Implement authenticated endpoints.
+
+PROJECTS:
+
+POST /api/projects
+GET /api/projects
+GET /api/projects/{id}
+PATCH /api/projects/{id}
+DELETE /api/projects/{id}
+
+VIDEOS:
+
+POST /api/videos/upload
+POST /api/videos/import-url
+GET /api/videos/{id}
+DELETE /api/videos/{id}
+
+ANALYSIS:
+
+POST /api/analysis/start
+GET /api/analysis/{id}
+GET /api/moments/{project_id}
+
+CLIPS:
+
+POST /api/clips/generate
+GET /api/clips/{project_id}
+GET /api/clips/{id}
+PATCH /api/clips/{id}
+POST /api/clips/{id}/regenerate
+DELETE /api/clips/{id}
+
+EDITOR:
+
+GET /api/editor/{clip_id}
+PUT /api/editor/{clip_id}
+POST /api/editor/{clip_id}/undo
+POST /api/editor/{clip_id}/redo
+GET /api/editor/{clip_id}/versions
+
+RENDERING:
+
+POST /api/render/start
+GET /api/render/{job_id}
+POST /api/render/{job_id}/cancel
+
+EXPORT:
+
+GET /api/exports/{project_id}
+GET /api/exports/{id}/download
+POST /api/exports/batch
+
+Use WebSockets or Server-Sent Events for real-time job updates.
+
+Validate and authorize every request.
+
+==================================================
+19. ACCOUNT SETTINGS
+
+No billing or subscription settings.
+
+Provide:
+
+- Edit profile.
+- Change password.
+- Language preference.
+- Notification preferences.
+- Default video format.
+- Default aspect ratio.
+- Caption preferences.
+- Default editing preset.
+- Storage usage.
+- Download history.
+- Privacy settings.
+- Delete project.
+- Delete account.
+
+==================================================
+20. FREE PRODUCT REQUIREMENT
+
+All implemented user-facing editing features must be available without payment.
+
+Do not create:
+
+- Subscription cards.
+- Pricing tables.
+- Payment screens.
+- Paid credits.
+- Upgrade buttons.
+- Premium locks.
+
+Do not show fake unlimited capacity.
+
+Configure transparent technical limits for maximum upload size, duration, concurrent jobs and storage based on actual infrastructure capacity. Display them as technical service limits, not paid tiers.
+
+Use open-source technologies wherever practical.
+
+==================================================
+21. SECURITY
+
+Implement:
+
+- Authentication.
+- Authorization.
+- Secure file uploads.
+- File validation.
+- URL allowlisting.
+- SSRF protection.
+- Rate limiting.
+- Signed download URLs.
+- Storage isolation.
+- User-level data protection.
+- Safe media processing.
+- API key protection.
+- Secure environment variables.
+- Temporary file cleanup.
+- Error logging.
+- Resource monitoring.
+
+Never process URLs that could access internal networks or local services.
+
+Respect copyright and source-platform restrictions.
+
+==================================================
+22. RESPONSIVE DESIGN
+
+Desktop:
+
+- Full timeline editor.
+- Preview center.
+- Left tools.
+- Right inspector.
+
+Tablet:
+
+- Collapsible panels.
+- Flexible preview.
+- Responsive timeline.
+
+Mobile:
+
+- Upload.
+- AI analysis status.
+- Clip gallery.
+- Vertical video preview.
+- Caption editing.
+- Basic trimming.
+- Download.
+
+Do not shrink the desktop timeline into an unusable mobile interface.
+
+==================================================
+23. TESTING
+
+Write automated tests for:
+
+- Registration.
+- Login.
+- Upload.
+- Authorized URL import.
+- Metadata extraction.
+- Video transcription.
+- AI moment detection.
+- Duplicate detection.
+- Clip generation.
+- Automatic reframing.
+- Caption synchronization.
+- Timeline editing.
+- Keyframes.
+- Undo and redo.
+- Autosave.
+- Audio editing.
+- Video rendering.
+- Batch export.
+- ZIP generation.
+- Project restoration.
+- User privacy.
+- Error recovery.
+
+Test with real sample videos that you are authorized to process.
+
+Verify actual generated files.
+
+Do not declare a feature complete merely because its interface exists.
+
+==================================================
+24. DEVELOPMENT EXECUTION ORDER
+
+Develop the application in milestones.
+
+MILESTONE 1:
+Create the complete responsive UI matching the supplied wireframe.
+
+MILESTONE 2:
+Build authentication and database.
+
+MILESTONE 3:
+Implement video upload and authorized URL import.
+
+MILESTONE 4:
+Implement FFmpeg metadata extraction and transcription.
+
+MILESTONE 5:
+Implement AI funny moment detection.
+
+MILESTONE 6:
+Implement multiple clip generation.
+
+MILESTONE 7:
+Implement automatic professional editing.
+
+MILESTONE 8:
+Build the full multitrack editor.
+
+MILESTONE 9:
+Implement rendering and export.
+
+MILESTONE 10:
+Implement projects, version history and account settings.
+
+MILESTONE 11:
+Run integration, performance, security and end-to-end testing.
+
+MILESTONE 12:
+Deploy and provide setup documentation.
+
+After each milestone:
+
+- Run the application.
+- Test implemented features.
+- Fix errors.
+- Verify backend integration.
+- Verify database persistence.
+- Continue only when the milestone is stable.
+
+==================================================
+25. CODE QUALITY REQUIREMENTS
+
+Create a professional monorepo structure:
+
+funnycut-ai/
+frontend/
+backend/
+workers/
+shared/
+database/
+infrastructure/
+docs/
+tests/
+
+Use clean architecture.
+
+Separate:
+
+- UI components.
+- Business logic.
+- AI services.
+- Video-processing services.
+- API routes.
+- Database operations.
+- Background jobs.
+- Export services.
+
+Include:
+
+- README.
+- .env.example.
+- Database migrations.
+- API documentation.
+- Installation instructions.
+- Deployment instructions.
+- Test instructions.
+
+Never expose secrets.
+
+Never hardcode API keys.
+
+Never fake API responses.
+
+Never use simulated progress as actual processing progress.
+
+Do not leave unfinished TODOs in core features.
+
+==================================================
+26. FINAL ACCEPTANCE CRITERIA
+
+The application is complete only when a user can:
+
+1. Create an account.
+2. Log in.
+3. Import an authorized video URL or upload a local video.
+4. Analyze the complete video.
+5. View detected funny moments.
+6. Understand why each moment was selected.
+7. Select multiple moments.
+8. Generate multiple clips.
+9. Automatically apply professional editing.
+10. Preview each clip.
+11. Edit captions and text.
+12. Adjust framing and cropping.
+13. Use timeline tools.
+14. Add audio and sound effects.
+15. Add transitions and animations.
+16. Apply color correction.
+17. Save and reopen editing projects.
+18. Export individual clips.
+19. Export all selected clips.
+20. Download actual MP4 files.
+
+FINAL PRODUCT VISION:
+
+FUNNYCUT AI must be a genuinely useful AI-powered video production platform.
+
+One video should become multiple professionally edited short videos with minimal manual work.
+
+The AI should make intelligent editing decisions, but users must always have full control to customize the final result.
+
+Follow the supplied wireframe closely, improve the editor substantially, and deliver a complete working product rather than a visual-only prototype.
